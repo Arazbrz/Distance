@@ -2,6 +2,10 @@
 clc
 clear 
 close
+%%
+addpath("Functions")
+addpath("Inputs")
+addpath("Outputs")
 %% derivation of z1 of line
 i=i1;
 v=v1;
