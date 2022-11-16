@@ -1,9 +1,9 @@
-function CA=Foursquaretrip2(rtest,xtest,z1,k)
+function CA=Foursquaretrip2(rtest,xtest,z1,k,cri2)
 CA=0;
 CAf=0;
 for i=1:length(rtest)
 faultCA(i)=FoursquareCheck2(rtest(i),xtest(i),z1,k);
-if CAf<100
+if CAf<cri2
     CAf=faultCA(i)+CAf;
 else
     CA=1;

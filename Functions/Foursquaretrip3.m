@@ -1,4 +1,4 @@
-function CA=Foursquaretrip3(rtest,xtest,z1,k)
+function CA=Foursquaretrip3(rtest,xtest,z1,k,cri3)
 CA=0;
 CAf=0;
 M=5;
@@ -12,7 +12,7 @@ end
 end
 for i=1:length(rtest)
 faultCA(i)=FoursquareCheck3(rtest(i),xtest(i),z1,k);
-if CAf<300
+if CAf<cri3
     CAf=faultCA(i)+CAf;
 else
     if power(i)==0
