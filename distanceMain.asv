@@ -62,7 +62,7 @@ grid on
 sAG=num2str(AG);
 sAG2=num2str(AG2);
 sAG3=num2str(AG3);
-title(['AG: ',' zone1=',sAG,' zone2=',sAG2,' zone3=',sAG3])
+title(['AG','\n','zone1=',sAG,'\n','zone2=',sAG2,'\n','zone3=',sAG3])
 hold on 
 zone1(z1)
 zone2(z1)
@@ -88,7 +88,7 @@ grid on
 sBG=num2str(BG);
 sBG2=num2str(BG2);
 sBG3=num2str(BG3);
-title(['BG: ',' zone1=',sBG,' zone2=',sBG2,' zone3=',sBG3])
+title(['BG','\n','zone1=',sBG,'\n','zone2=',sBG2,'\n','zone3=',sBG3])
 hold on 
 zone1(z1)
 zone2(z1)
@@ -114,7 +114,7 @@ grid on
 sCG=num2str(CG);
 sCG2=num2str(CG2);
 sCG3=num2str(CG3);
-title(['CG: ',' zone1=',sCG,' zone2=',sCG2,' zone3=',sCG3])
+title(['CG','\n','zone1=',sCG,'\n','zone2=',sCG2,'\n','zone3=',sCG3])
 hold on 
 zone1(z1)
 zone2(z1)
@@ -140,7 +140,7 @@ grid on
 sAB=num2str(AB);
 sAB2=num2str(AB2);
 sAB3=num2str(AB3);
-title(['AB: ','zone1=',sAB,' zone2=',sAB2,' zone3=',sAB3])
+title(['AB','zone1=',sAB,'zone2=',sAB2,'\n','zone3=',sAB3])
 hold on 
 zone1(z1)
 zone2(z1)
@@ -166,7 +166,7 @@ grid on
 sBC=num2str(BC);
 sBC2=num2str(BC2);
 sBC3=num2str(BC3);
-title(['BC: ','zone1=',sBC,' zone2=',sBC2,' zone3=',sBC3])
+title(['BC','zone1=',sBC,,'zone2=',sBC2,'zone3=',sBC3])
 hold on 
 zone1(z1)
 zone2(z1)
@@ -193,7 +193,7 @@ grid on
 sCA=num2str(CA);
 sCA2=num2str(CA2);
 sCA3=num2str(CA3);
-title(['CA: ' ,'zone1=',sCA ,' zone2=',sCA2,' zone3=',sCA3])
+title(['CA' ,'zone1=',sCA ,'zone2=',sCA2,'zone3=',sCA3])
 hold on 
 %plot(rtest2,xtest2)
 zone1(z1)
